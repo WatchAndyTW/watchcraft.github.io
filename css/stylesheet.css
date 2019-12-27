@@ -43,3 +43,11 @@ nav a:hover{
     margin-left: 680px;
     width: 25%;
 }
+
+@media screen and (max-width: 481px){
+    .main-logo img{
+        margin-top: 70px;
+        margin-left: 200px;
+        width: 50%;
+    }
+}
