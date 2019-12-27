@@ -42,7 +42,7 @@ nav a:hover{
     margin-top: 70px;
     margin-left: 680px;
     width: 25%;
-    @media (max-width: 600px){
+    @media (max-width: 800px){
         margin-top: 10px;
         margin-left: 200px;
         width: 50%;
