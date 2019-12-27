@@ -42,11 +42,8 @@ nav a:hover{
     margin-top: 70px;
     margin-left: 680px;
     width: 25%;
-}
-
-@media screen and (max-width: 481px){
-    .main-logo img{
-        margin-top: 70px;
+    @media (max-width: 600px){
+        margin-top: 10px;
         margin-left: 200px;
         width: 50%;
     }
