@@ -33,13 +33,13 @@ nav a{
     color: deepskyblue;
     text-align: center;
 }
-          nav a:hover{
-              background: orange;
-              transition: 0.5s;
-              text-transform: uppercase;
-          }
-          .main-logo img{
-              margin-top: 70px;
-              margin-left: 680px;
-              width: 25%;
-          }
+nav a:hover{
+    background: orange;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+.main-logo img{
+    margin-top: 70px;
+    margin-left: 680px;
+    width: 25%;
+}
