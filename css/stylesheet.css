@@ -40,10 +40,8 @@ nav a:hover{
 }
 .main-logo img{
     position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-top: 50px;
-    margin-left: 100px;
+    top: 20%;
+    left: 40%;
     width: 25%;
     @media (max-width: 800px){
         margin-top: 10px;
