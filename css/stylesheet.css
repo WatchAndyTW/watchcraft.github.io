@@ -20,7 +20,7 @@ li{
     position: fixed;
     margin-top: 8px;
     margin-left: 20px;
-    height: 10%;
+    height: 6%;
 }
 nav a{
     width: 100px;
@@ -39,7 +39,7 @@ nav a:hover{
     text-transform: uppercase;
 }
 .main-logo img{
-    margin: 5% 32%;
+    margin: 5% 34%;
     max-width: 90%;
     display: block;
     position: fixed;
