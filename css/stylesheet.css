@@ -18,7 +18,7 @@ li{
 }
 .logo img{
     position: fixed;
-    margin-top: 16.5px;
+    margin-top: 16.85px;
     margin-left: 8.5px;
     height: 12%;
 }
@@ -35,7 +35,7 @@ nav a{
 }
 nav a:hover{
     background: orange;
-    transition: 0.5s;
+    transition: 0.35s;
     text-transform: uppercase;
 }
 .main-logo img{
