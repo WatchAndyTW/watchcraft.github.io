@@ -1,27 +1,39 @@
-<!DOCTYPE html>
-<html>
-  <head>
-      <title>404 | 目創團隊</title>
-      <link rel="stylesheet" href="/css/stylesheet.css" media="screen">
-      <meta property="og:title" content="404 | 目創團隊 | WatchCraft Creation" />
-      <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://watchcraft.club" />
-      <meta property="og:image" content="https://watchcraft.club/img/WatchCraft.png" />
-      <meta property="og:description" content="目創團隊是一個專門製做Minecraft大型多人遊戲地圖的團隊！團長為安迪(WatchAndyTW)，快來享受我們地圖所帶來的樂趣吧！" />
-      <meta name="description" content="目創團隊是一個專門製做Minecraft大型多人遊戲地圖的團隊！團長為安迪(WatchAndyTW)，快來享受我們地圖所帶來的樂趣吧！">
-      <meta charset="utf-8">
-      <meta name='viewport' content='width=device-width' />
-  </head>
-  <body>
-      <div class="logo"><a href="/"><img src="/img/WatchCraft-word.png"></a></div>
-      <nav>
-          <ul>
-              <li><a href="/"><b>主畫面</b></a></li>
-              <li><a href="/about/"><b>關於我們</b></a></li>
-              <li><a href="/maps/"><b>地圖下載</b></a></li>
-          </ul>
-      </nav>
-      <b><center><font size="7"><font color="red">404</font></font></center></b><br>
-      <b><center><font size="7">無法找到您所輸入連結之頁面</font></center></b>
-  </body>
-</html>
+.scenery
+	.stars
+		- for(i=0; i<100; i++)
+			.star
+	.planet.planet1
+	.planet.planet2
+	.planet.planet3
+	.girl
+		.head
+		.body
+		.legs
+	.title
+		h1
+			span 4
+			.square
+				.light.light1
+				.light.light2
+				.light.light3
+				.light.light4
+				.shadow.shadow1
+				.shadow.shadow2
+				ul.stairs1
+					- for(i=0; i<12; i++)
+						li
+				ul.stairs2
+					- for(i=0; i<11; i++)
+						li
+				ul.stairs3
+					- for(i=0; i<10; i++)
+						li
+				ul.stairs4
+					- for(i=0; i<11; i++)
+						li
+			span 4
+	.message
+		h2 Oops! Looks like you got lost
+	
+	.action
+		button Take me back
