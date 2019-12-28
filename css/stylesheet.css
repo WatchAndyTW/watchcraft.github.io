@@ -20,7 +20,7 @@ li{
     position: fixed;
     margin-top: 2px;
     margin-left: 5px;
-    height: 12.5%;
+    height: 15%;
 }
 nav a{
     width: 100px;
@@ -43,7 +43,7 @@ nav a:hover{
     max-width: 90%;
     display: block;
     position: fixed;
-    height: 60%;
+    height: 70%;
 }
 
 @media (min-width: 600px){
