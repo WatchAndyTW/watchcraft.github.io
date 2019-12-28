@@ -39,9 +39,9 @@ nav a:hover{
     text-transform: uppercase;
 }
 .main-logo img{
-    margin: 80px 34%;
+    margin: 80px 35%;
     max-width: 90%;
     display: block;
     position: fixed;
-    height: 48%;
+    height: 50%;
 }
