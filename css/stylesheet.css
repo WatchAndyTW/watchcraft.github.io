@@ -43,6 +43,7 @@ nav a:hover{
     max-width: 90%;
     display: block;
     position: fixed;
+    weight: 30%;
     height: 50%;
 }
 
