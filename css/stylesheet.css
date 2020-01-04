@@ -4,6 +4,7 @@ body{
     background-image: url('https://truth.bahamut.com.tw/s01/201901/28485084378f4214f3d10a88ac3a10fd.JPG');
 }
 nav{
+    padding: 0px 0px;
     width: 100%;
     background: black;
     overflow: auto;
@@ -11,10 +12,10 @@ nav{
 ul{
     padding: 0;
     margin: 0 0 0 150px;
-    list-style: none;
 }
 li{
     float: right;
+    list-style: none;
 }
 .logo img{
     position: fixed;
@@ -24,17 +25,18 @@ li{
 }
 nav a{
     width: 100px;
-    display: block;
+    display: inline-block;
     padding: 6px 17px;
     text-decoration: none;
     font-family: fantasy;
     font-weight: bold;
     font-size: 7;
-    color: deepskyblue;
+    color: white;
     text-align: center;
 }
 nav a:hover{
-    background: orange;
+    background: none;
+    color: orange;
     transition: 0.35s;
     text-transform: uppercase;
 }
@@ -43,7 +45,6 @@ nav a:hover{
     max-width: 90%;
     display: block;
     position: fixed;
-    weight: 30%;
     height: 50%;
 }
 .btn-request{
@@ -58,49 +59,79 @@ nav a:hover{
     transform: scale(1.05);
     box-shadow: 0px 20px 20px rgba(0,0,0,0.1);
 }
+.footer{
+    font-size: 20px;
+    overflow: hidden; 
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+    padding: 1px 37%;
+    background: black;
+    position: fixed;
+    bottom: 0;
+    line-height: 225%;
+}
+.discord_widget{
+    bottom: 0;
+    padding: 4.9% 1.1%;
+    position: fixed;
+}
+.toggle{
+    display: block;
+    position: fixed;
+    
+}
 
-@media (min-width: 800px){
+@media (min-width: 500px){
     body{
         margin: 0;
         padding: 0;
         background-image: url('https://truth.bahamut.com.tw/s01/201901/28485084378f4214f3d10a88ac3a10fd.JPG');
+        background-attachment: fixed
     }
     nav{
-        width: 100%;
-        background: black;
-        overflow: auto;
+        background: none;
     }
     ul{
-        padding: 0;
-        margin: 0 0 0 150px;
-        list-style: none;
+        align-items: center;
+        display: flex;
+        margin: 25px 43%;
+        text-decoration: none;
+        text-align: center;
     }
     li{
         float: right;
+        padding: 0px 2px;
     }
     .logo img{
-        position: fixed;
-        margin-top: 8px;
-        margin-left: 20px;
-        height: 6%;
+        margin: 8px 36%;
+        height: 11%;
+        padding-bottom: 0%;
+        -webkit-transition: 0.45s;
+    }
+    .logo img:hover{
+        transform: rotate(360deg);
+        transition: 0.45s;
     }
     nav a{
+        float: right;
         width: 100px;
         display: block;
-        padding: 25px 17px;
+        letter-spacing : 2px;
+        margin: 10px 2px;
+        padding: 10px 17px;
         text-decoration: none;
-        font-family: fantasy;
-        font-weight: bold;
-        font-size: 7;
-        color: deepskyblue;
+        font-size: 16px;
+        color: white;
         text-align: center;
     }
     nav a:hover{
-        background: orange;
+        background: none;
         transition: 0.5s;
-        text-transform: uppercase;
+        color: #ffcb39;
     }
     .main-logo img{
+        float: inherit;
         margin: 80px 37.5%;
         max-width: 90%;
         display: block;
@@ -108,15 +139,39 @@ nav a:hover{
         height: 50%;
     }
     .btn-request{
-        padding: 10px 25px;
+        padding: 10px 26px;
+        margin: 6% 49.4%;
+        max-width: 25px;
         border: 1px solid #FFCB39;
         border-radius: 100px;
-        font-weight: 400;
+        font-weight: 40;
+        position: fixed;
+        bottom: 0;
     }
     .btn-request:hover{
         background-color: #FFCB39;
         color: #fff;
         transform: scale(1.05);
         box-shadow: 0px 20px 20px rgba(0,0,0,0.1);
+    }
+    .footer{
+        font-size: 20px;
+        overflow: hidden; 
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        text-align: center;
+        padding: 1px 45%;
+        background: black;
+        position: fixed;
+        bottom: 0;
+        line-height: 225%;
+    }
+    .discord_widget{
+        padding: 3% 1.1%;
+        position: fixed;
+        bottom: 0;
+    }
+    .toggle{
+        display: none;
     }
 }
