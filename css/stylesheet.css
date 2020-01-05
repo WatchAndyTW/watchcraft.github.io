@@ -156,14 +156,13 @@ nav a:hover{
     }
     .footer{
         font-size: 20px;
-        overflow: hidden; 
-        white-space: nowrap;
-        text-overflow: ellipsis;
-        text-align: center;
         padding: 1px 45%;
         background: black;
         position: fixed;
         bottom: 0;
+        
+    }
+    .copyright{
         line-height: 225%;
     }
     .discord_widget{
@@ -173,5 +172,13 @@ nav a:hover{
     }
     .toggle{
         display: none;
+    }
+    .contact_icons{
+        position: fixed;
+        float: right;
+        bottom: 0;
+        padding: 20px 90%;
+        transform: translateY(-50);
+        width: 100%
     }
 }
