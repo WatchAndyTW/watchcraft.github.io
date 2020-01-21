@@ -77,8 +77,8 @@ get_architecture(){
         output "64-bit server 已偵測! 祝你好運."
         output ""
     else
-        output "检测到不支持的架构! 请切换到64位(x86_64)."
-        exit 4
+        output "32-bit server 已偵測! 祝你好運."
+        output ""
     fi
 }
 
